@@ -28,5 +28,8 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.collect{ |word| word[2] = '$' }
+  finished_words []
+  array.each do |word|
+    
+  end
 end
