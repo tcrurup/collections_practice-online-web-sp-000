@@ -30,6 +30,7 @@ end
 def kesha_maker(array)
   finished_words []
   array.each do |word|
-    
+    word[2] = '$'
+    finished_words << word
   end
 end
