@@ -43,3 +43,7 @@ end
 def sum_array(number_array)
   number_array.inject{ |sum, number| sum + number }
 end
+
+def add_s(word_array)
+  word_array.each_with_index.collect{ |element, index| index != 2 }
+end
