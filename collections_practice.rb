@@ -45,5 +45,7 @@ def sum_array(number_array)
 end
 
 def add_s(word_array)
-  word_array.each_with_index.collect{ |element, index| index != 2 }
+  word_array.each_with_index.collect do |element, index| 
+    index == 2 ? element : "#{element}s"  
+  end
 end
