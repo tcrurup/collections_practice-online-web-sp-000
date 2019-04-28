@@ -46,6 +46,6 @@ end
 
 def add_s(word_array)
   word_array.each_with_index.collect do |element, index| 
-    index == 2 ? element : "#{element}s"  
+    index == 1 ? element : "#{element}s"  
   end
 end
