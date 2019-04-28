@@ -15,3 +15,10 @@ def swap_elements(array)
   third_element = array[2]
   [array[0], third_element, second_element]
 end
+
+def swap_elements_from_to(array, index, destination_index)
+  swapped_array = array
+  swapped_array[index] = array[destination_index]
+  swapped_array[destination_index] = array[index]
+  swapped_array
+end
